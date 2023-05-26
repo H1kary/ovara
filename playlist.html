@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="images/icons8-куб-травы-из-minecraft.svg">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="css/playlist.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+    <script src="https://vk.com/js/api/openapi.js?169" type="text/javascript"></script>
+    <title>Ovara</title>
+  </head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Ovara</a>
+        <ul class="navlist">
+          <li><a href="playlist.html">Playlist</a></li>
+          <li><a href="edits.html">Edits</a></li>
+          <!--<li><a href="contact.html">Contact</a></li>-->
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <hr>
+    <div class="playlist" id="my_playlist">
+      <script
+        type="text/javascript"
+        src="https://vk.com/js/api/openapi.js?168"
+        charset="windows-1251"
+      ></script>
+      <!-- Put this script tag to the place, where the Playlist block will be -->
+      <div class="playlist-widget" id='vk_playlist_375563825_84100706'></div>
+      <script type="text/javascript">
+        VK.Widgets.Playlist('vk_playlist_375563825_84100706', 375563825, 84100706, 'a02ad1dc392b3e8ab2');
+      </script>
+    </div>
+</body>
+</html>
