@@ -48,6 +48,22 @@
     cursor: pointer;
     display: none;
   }
+  .icons {
+    margin: 0 auto;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+  }
+  .icons i {
+    display: block;
+    font-size: 72px;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  .icons i:hover {
+    color: #ff0000;
+    transform: translateY(-5px);
+  }
   @media (max-width: 990px) {
     #menu-icon {
       display: block;
