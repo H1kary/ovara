@@ -74,6 +74,7 @@
     line-height: 1;
     color: white;
     margin: 0 0 45px;
+    user-select: none;
   }
   .hero-text h4 {
     font-size: 18px;
@@ -182,7 +183,7 @@
   }
   @media (max-width: 1340px) {
     .hero-img img {
-      width: 600px;
+      width: 450px;
       height: auto;
       transition: all 0.55s ease;
     }
@@ -200,13 +201,17 @@
       transition: 0.2s;
     }
     .hero-text {
-      padding-top: 115px;
+      margin-top: 100px;
+      text-align: center;
+    }
+    .hero-text h1 {
+      font-size: 100px;
     }
     .hero-img {
       text-align: center;
     }
     .hero-img img {
-      width: 560px;
+      width: 400px;
       height: auto;
       transition: all 0.55s ease;
     }
@@ -250,14 +255,14 @@
   }
   @media (max-width: 990px) {
     .hero-img img {
-      width: 500px;
+      width: 300px;
       height: auto;
       transition: all 0.55s ease;
     }
   }
   @media (max-width: 790px) {
     .hero-img img {
-      width: 250px;
+      width: 150px;
       height: auto;
       margin: 0 auto;
       transition: all 0.55s ease;
